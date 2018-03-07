@@ -1,4 +1,4 @@
-# Job Search Organizer - Version 2
+# Job Search Organizer
 
 ## Aim
 
@@ -12,15 +12,51 @@ To build an entire application using 3-tier architecture using **React/Redux** a
 > 4. **Server - Database** --> **Sequelize - MySQL**
 > 5. **Database** --> **MySQL**
 
-## Changes Comparing to [**version 1**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql)
+## The EER Diagram
 
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql_v2/blob/master/assets/img/objectInstead.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/eer.jpg)
 
-## Problem (maybe?)
-The "**bundle.js**" could be heavier in ***version 2** if **webpack** takes **objects** (for constants, for example) as a whole or just "**key**": "**value**" (the latter could be a ***function***, ***object***, ***variable***, etc.) 
+## User Interfaces
 
-But in the worst case, even with a big project, the weight added wouldn't be more than some hundred kilo-bytes.
- 
+### Add New Job
+As long as all "***Required***" fields are empty, we could not submit the form (**validation**)
+
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/addNewJob.jpg)
+
+### List All Jobs (with Options)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/displayJobs.jpg)
+
+### Show Details of a Specific Job
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/displayJobs_show_details.jpg)
+
+### To Change the "Status" or "Comment"
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/update.jpg)
+
+## Execution
+
+### Setting
+I - Create a **Database** with the name of "**job_search_organizer**" then enter the "**password**" of your ***Database*** in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server/models/index.js)
+
+II - Create **tables** for the ***database*** by setting the [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server.js) with "**({ force: true })**"
+
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/server.jpg)
+
+### Executing
+
+I - **Database**: set the ***database*** to "**user**" (don't forget to provide the **password** of your DB in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server/models/index.js))
+
+II - **Server**: start your server in your [**Git Bash**](https://git-scm.com/downloads) on the same folder of your [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server.js) file. Enter the command
+
+> npm install
+
+to install the dependencies. Following by to start the ***server***:
+
+> npm run build
+
+III - **Client** - Open your favorite Internet Brower (**Chrome**, **Firefox**, **IE**, etc.) and enter in the address bar
+
+> localhost:3000
+
 
 ---------------
 
