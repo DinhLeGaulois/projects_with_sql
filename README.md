@@ -1,4 +1,4 @@
-# All Project Using SQL as Database
+# All Projects Using SQL as Database
 
 
 ---------------
