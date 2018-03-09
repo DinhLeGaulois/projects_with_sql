@@ -7,7 +7,7 @@ We get data (from **Spotify** by making requests directly to their **API**) by e
 
 ## The **EER** (**E**nhanced **E**ntity-**R**elationship model)  
 
-![alt text](https://github.com/DinhLeGaulois/spotify_react_redux_sql_sequelize/blob/master/assets/img/eer.jpg)
+![alt text](https://github.com/DinhLeGaulois/projects_with_sql/blob/master/react-redux/spotify_react_redux_sql_sequelize/assets/img/eer.jpg)
 
 ---------------
 
