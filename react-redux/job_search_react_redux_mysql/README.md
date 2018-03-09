@@ -14,38 +14,38 @@ To build an entire application using 3-tier architecture using **React/Redux** a
 
 ## The EER Diagram
 
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/eer.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/eer.jpg)
 
 ## User Interfaces
 
 ### Add New Job
 As long as all "***Required***" fields are empty, we could not submit the form (**validation**)
 
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/addNewJob.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/addNewJob.jpg)
 
 ### List All Jobs (with Options)
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/displayJobs.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/displayJobs.jpg)
 
 ### Show Details of a Specific Job
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/displayJobs_show_details.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/displayJobs_show_details.jpg)
 
 ### To Change the "Status" or "Comment"
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/update.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/update.jpg)
 
 ## Execution
 
 ### Setting
-I - Create a **Database** with the name of "**job_search_organizer**" then enter the "**password**" of your ***Database*** in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server/models/index.js)
+I - Create a **Database** with the name of "**job_search_organizer**" then enter the "**password**" of your ***Database*** in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/server/models/index.js)
 
-II - Create **tables** for the ***database*** by setting the [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server.js) with "**({ force: true })**"
+II - Create **tables** for the ***database*** by setting the [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/server.js) with "**({ force: true })**"
 
-![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/assets/img/server.jpg)
+![alt text](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/assets/img/server.jpg)
 
 ### Executing
 
-I - **Database**: set the ***database*** to "**user**" (don't forget to provide the **password** of your DB in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server/models/index.js))
+I - **Database**: set the ***database*** to "**user**" (don't forget to provide the **password** of your DB in the file [**index.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/server/models/index.js))
 
-II - **Server**: start your server in your [**Git Bash**](https://git-scm.com/downloads) on the same folder of your [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server.js) file. Enter the command
+II - **Server**: start your server in your [**Git Bash**](https://git-scm.com/downloads) on the same folder of your [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/react-redux/job_search_react_redux_mysql/server.js) file. Enter the command
 
 > npm install
 
