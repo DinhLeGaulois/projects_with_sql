@@ -2,7 +2,7 @@
 
 ## Aim
 
-The application [**Job Search Organizer**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql) is working the exact same way, but instead of using an independent database (**MySQL**), we are using an ***embbed*** database which is **sqlite3**
+The application [**Job Search Organizer**](https://github.com/DinhLeGaulois/projects_with_sql/tree/master/react-redux/job_search_react_redux_mysql) is working the exact same way, but instead of using an independent database (**MySQL**), we are using an ***embbed*** database which is **sqlite3**
 
 ## Why?
 
@@ -15,7 +15,7 @@ The application [**Job Search Organizer**](https://github.com/DinhLeGaulois/job_
 
 ### Executing
 
-I - **Server**: start your server in your [**Git Bash**](https://git-scm.com/downloads) on the same folder of your [**server.js**](https://github.com/DinhLeGaulois/job_search_react_redux_mysql/blob/master/server.js) file. Enter the command
+I - **Server**: start your server in your [**Git Bash**](https://git-scm.com/downloads) on the same folder of your [**server.js**](./server.js) file. Enter the command
 
 > npm install
 
